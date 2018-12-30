@@ -1,0 +1,149 @@
+name: ignite
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  flutter_staggered_grid_view:
+  url_launcher:  
+  material_design_icons_flutter:
+  flutter_webview_plugin: ^0.2.1+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.6.1"
+
+flutter_icons:
+   image_path: "imgs/1page/ig18.png"
+   android: true
+   ios: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+  assets:
+    - imgs/2page/header.jpeg
+    - imgs/1page/blur.png
+    - imgs/1page/CS.png
+    - imgs/1page/pubg.png
+    - imgs/1page/fifa18.png
+    - imgs/1page/wof.png
+    - imgs/1page/carrom.png
+    - imgs/1page/1v1.png
+    - imgs/1page/dl.png
+    - imgs/1page/lol.png
+    - imgs/1page/mos.png
+    - imgs/1page/rtp.png
+    - imgs/1page/switch.png
+    - imgs/1page/ttt.jpeg
+    - imgs/1page/ttt2.png
+    - imgs/1page/tyv.png
+    - imgs/3page/1.jpg
+    - imgs/3page/2.jpg
+    - imgs/3page/3.jpg
+    - imgs/3page/4.jpg
+    - imgs/3page/5.jpg
+    - imgs/3page/6.jpg
+    - imgs/3page/7.jpg
+    - imgs/3page/8.jpg
+    - imgs/3page/9.jpg
+    - imgs/3page/10.jpg
+    - imgs/3page/11.jpg
+    - imgs/3page/12.jpg
+    - imgs/3page/13.jpg
+    - imgs/3page/14.jpg
+    - imgs/3page/15.jpg
+    - imgs/3page/16.jpg
+    - imgs/3page/17.jpg
+    - imgs/4page/ignitelogonew.png
+    - imgs/2page/heads/cr/Janita.png
+    - imgs/2page/heads/cr/Sudip.png
+    - imgs/2page/heads/digi/Mukul.png
+    - imgs/2page/heads/doc/1.png
+    - imgs/2page/heads/fin/Aishwarya.png
+    - imgs/2page/heads/fin/Rohan.png
+    - imgs/2page/heads/mag/Dipesh.png
+    - imgs/2page/heads/mag/Gunita.png
+    - imgs/2page/heads/mar/Ravi.png
+    - imgs/2page/heads/mar/Vignesh.png
+    - imgs/2page/heads/tech/Anuj.png
+    - imgs/2page/heads/tech/Vinay.png
+    - imgs/2page/heads/pr/Mayuresh.png
+    - imgs/2page/heads/pr/Swapnil.png
+    - imgs/2page/heads/social/Ruttik.png
+    - imgs/2page/mentors/cr/Rashmi.png
+    - imgs/2page/mentors/cr/Tehrique.png
+    - imgs/2page/mentors/digi/Mayur.png
+    - imgs/2page/mentors/doc/Riya.png
+    - imgs/2page/mentors/fin/Hemant.png
+    - imgs/2page/mentors/fin/Nishita.png
+    - imgs/2page/mentors/mag/Gaurish.png
+    - imgs/2page/mentors/mar/Chinmay.png
+    - imgs/2page/mentors/mar/Devdatta.png
+    - imgs/2page/mentors/pr/Ketaki.png
+    - imgs/2page/mentors/pr/Mahima.png
+    - imgs/2page/mentors/social/Shashwat.png
+    - imgs/2page/mentors/tech/Ninad.png
+    - imgs/2page/mentors/tech/manthan.jpeg
+    - imgs/2page/cpvcp/cp.png
+    - imgs/2page/cpvcp/vcp.png
+    - imgs/2page/cpvcp/ex-vcp.png
+    - imgs/4page/ashutosh.jpg
+    - imgs/4page/justin.jpg
+    - imgs/4page/DEVBRG.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
